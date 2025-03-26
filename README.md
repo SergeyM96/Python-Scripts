@@ -1,20 +1,27 @@
-# Python Scripts Repository
+# Python Utility Scripts Repository 🐍
 
-Welcome to my Python Scripts Repository! This repository contains a collection of Python scripts that are freely available for use. Whether you're a beginner looking to learn Python or an experienced developer seeking useful scripts, you'll find something valuable here.
+A collection of practical Python scripts for automation, web scraping, data processing, GUI applications & more.
 
-## Usage
+## 🚀 Featured Scripts
 
-To use the scripts in this repository, simply clone or download the repository to your local machine. Each script is contained within its own directory and includes detailed instructions on how to use it. Before running any script, please ensure that you have the necessary dependencies installed.
+| Script                                                | Description                                                                    |  Technologies Used |
+|--------|-------------|------------------|
+| [`computer_info.py`](computer_info.py)                | GUI tool to display comprehensive system information (CPU, GPU, RAM, etc.)     | `tkinter`, `psutil` |
+| [`form_filler.py`](form_filler.py)                    | Automates web form filling with human-like behavior                            | `selenium`, `logging` |
+| [`live_speech_to_text.py`](live_speech_to_text.py)    | Real-time speech recognition and transcription                                 | `speech_recognition`, `pydub` |
+| [`S&P500_stock_scraper.py`](S&P500_stock_scraper.py)  | Scrapes S&P 500 company data and stock prices                                  | `BeautifulSoup`, `requests` |
+| [`metadata_from_image.py`](metadata_from_image.py)    | Extracts EXIF metadata from image files                                        | `Pillow`, `tkinter` |
+| [`text_to_speech.py`](text_to_speech.py)              | Converts text to speech in multiple languages                                  | `gTTS`, `deep_translator` |
+| [`qr_code.py`](qr_code.py)                            | Generates QR codes from URLs                                                   | `qrcode` |
+| [`check_your_grammer.py`](check_your_grammer.py)      | GUI grammar checker with suggestions                                           | `language_tool_python` |
 
-## Contributing
+and more.
 
-I welcome contributions from the community! If you have a Python script that you think would be a valuable addition to this repository, please feel free to submit a pull request. Before submitting a pull request, please ensure that your code follows the repository's coding standards and includes appropriate documentation.
+## 📦 Installation
+```bash
+git clone https://github.com/SergeyM96/python-scripts.git
+cd python-scripts
+pip install -r requirements.txt
 
-## License
-
-This repository is licensed under the [MIT License](LICENSE). Feel free to use the scripts in this repository for personal or commercial projects.
-
----
-
-&copy; 2024 Python Scripts Repository
+&copy; 2025 Python Scripts Repository
 
