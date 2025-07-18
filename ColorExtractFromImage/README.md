@@ -20,22 +20,18 @@ A simple and interactive Python application to extract dominant colors from an i
 
 ---
 
-## 🚀 Installation
-
-1. **Clone the repository**:
-
+**🚀 Installation**
+1. Clone the repository:
 ```cmd/bash
-git clone https://github.com/yourusername/color-extractor-gui.git
+git clone https://github.com/SergeyM96/Python-Scripts/ColorExtractFromImage.git
 cd color-extractor-gui
 
 
 2. **Install dependencies**:
-
-bash/cmd
+cmd/bash
 pip install colorgram.py
 
 3. Run the main script:
-
 * python color_extractor_gui.py
 * Click the "Choose Image" button
 * Select an image file
